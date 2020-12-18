@@ -1,0 +1,57 @@
+.header{
+	background-color: #007793;
+	color: #D4AC0D;
+	height: 100px;
+}
+
+li{
+	list-style: none;
+}
+
+.header-logo{
+	float: left;
+	font-size: 40px;
+	padding:20px 35px; /*20 en haut et en bas et 35 sur les cotés*/
+}
+
+.header-list li{
+	float: left;
+	padding: 33px 20px;
+}
+
+.main{
+	height:400px;
+	padding:10px;
+	background-color:light; 
+}
+
+.contents h1, h2 {
+	font-family: Gigi;
+	font-size: 40px;
+	text-align: center;
+}
+
+.section{
+	border-bottom: 2px solid; 
+	color:#007793;
+}
+
+.footer{
+	background-color:#D4AC0D;
+	height:120px;
+	color: #007793;
+}
+
+.footer-logo{
+	font-size: 50px;
+	float: left;
+	padding: 25px;
+}
+
+.footer-list{
+	float: right;
+}
+
+.footer-list li{
+	padding-bottom: 10px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Styling HTML Table</title>
+
+<style>
+	table, th, td, tr {
+		border: 2px dotted #007793;
+		border-collapse: collapse; /*pour donner une ligne simple > on fusione/colle les lignes*/
+		width: 50%;
+		text-align: center
+	}
+
+tr:nth-child(2){
+	background-color: lightblue;
+}
+
+tr:nth-child(3){
+	background-color: lightblue;
+}
+
+tr:nth-child(4){
+	background-color: lightblue;
+}
+
+tr:nth-child(1){
+	background-color: orange;
+}
+
+tr:hover{
+	background-color: purple; /*Si je passe ma souris sur le tableau, la ligne devient violette*/
+	font-size: 20px; /*Si je passe ma souris, le texte grossit*/
+	font-family:Helvetica; /*Si je passe ma souris, le texte est en Verdana*/
+}
+
+
+</style>
+
+</head>
+
+<body>
+	<h1> Styling table in CSS3</h1>
+
+<table>
+	<tr>
+		<th>First Name</th>
+		<th>Second Name</th>
+		<th>Mark</th>
+	</tr>
+
+		<tr>
+			<td>Flavie</td>
+			<td>Louis</td>
+			<td>85</td>
+		</tr>
+
+		<tr>
+			<td>Léa</td>
+			<td>Smith</td>
+			<td>94</td>
+		</tr>
+
+		<tr>
+			<td>Aline</td>
+			<td>Joe</td>
+			<td>30</td>
+		</tr>
+
+</table>
+
+</body>
